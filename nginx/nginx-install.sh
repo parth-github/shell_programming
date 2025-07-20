@@ -12,7 +12,7 @@ cd nginx
 # Checkout the desired version (e.g., 1.24.0)
 git checkout tags/release-1.24.0
 # Compile and install Nginx
-./configure
+auto/configure
 make
 sudo make install
 # Create a systemd service file for Nginx
